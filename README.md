@@ -3,11 +3,7 @@ Bookmarklet to highlight none standard HTML tags
 
 ## Result
 
-[//]: # START_CODE
-
-Replace
-
-[//]: # END_CODE
+A bookmarklet that displays all unkown tags in the page. See `dist/bookmarklet.html`.
 
 ## Install
 
