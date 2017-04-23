@@ -1,0 +1,12 @@
+{
+  "name": "component-highlight-bookmarklet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:RRMoelker/component-highlight-bookmarklet.git",
+    "type": "git"
+  },
+  "author": "Ruurd Moelker <RRMoelker@users.noreply.github.com>",
+  "license": "Apache V2",
+  "private": "true"
+}
