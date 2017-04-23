@@ -35,5 +35,5 @@
   }`];
 
   const sheet = window.document.styleSheets[0];
-  rules.map(rule => sheet.insertRule(rule, sheet.cssRules.length) );  
+  rules.map(rule => sheet.insertRule(rule, sheet.cssRules && sheet.cssRules.length || 0) );  
 })();
