@@ -24,6 +24,7 @@
   .debug-component {
       position: absolute;
       right: 0;
+      z-index: 777;
       color: lightgray;
       font-size: 8px;
   }`,`

@@ -21,7 +21,7 @@
         outer.appendChild(inner);
     });
 
-    var rules = ['\n  .debug-wrapper {\n      position: relative;\n  }', '\n  .debug-component {\n      position: absolute;\n      right: 0;\n      color: lightgray;\n      font-size: 8px;\n  }', '\n  .debug-component:hover {\n      color: black;\n      background-color: lightgray;\n      font-size: 12px;\n      padding: 0.2em;\n  }'];
+    var rules = ['\n  .debug-wrapper {\n      position: relative;\n  }', '\n  .debug-component {\n      position: absolute;\n      right: 0;\n      z-index: 777;\n      color: lightgray;\n      font-size: 8px;\n  }', '\n  .debug-component:hover {\n      color: black;\n      background-color: lightgray;\n      font-size: 12px;\n      padding: 0.2em;\n  }'];
 
     var sheet = window.document.styleSheets[0];
     rules.map(function (rule) {
